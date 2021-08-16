@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+body {
+  font-family: "Indie Flower", cursive;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  background-color: rgb(233, 233, 45);
+  padding: 20px;
+  border-bottom-color: solid black;
+  border-style: solid;
+}
+
+.txt_1 {
+  margin: 2rem;
+  padding: 2rem;
+  width: 50%;
+  border-bottom-left-radius: 1rem;
+  height: 7vh;
+  display: inline-block;
+  font-family: "Indie Flower", cursive;
+  /* font-weight: bold; */
+  font-size: 2rem;
+  text-align: center;
+}
+
+.txt_2 {
+  border: 1px solid black;
+  font-family: "Indie Flower", cursive;
+  margin: 2rem;
+  /* font-weight: bold; */
+  padding: 2rem;
+  width: 50%;
+  border-bottom-right-radius: 1rem;
+  height: 7vh;
+  font-size: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+
+button {
+  font-family: "Sacramento", cursive;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 25%;
+  border-color: rgb(192, 192, 52);
+  border-width: 0.25em;
+  border-style: outset;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border-color: rgb(228, 228, 30);
+  border-style: inset;
+  background-color: rgb(224, 224, 196);
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.about {
+  border-style: solid;
+  border-bottom-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  font-size: 1.8rem;
+  margin-top: 100px;
+}
+/* .color:hover {
+  background-color: rgb(228, 228, 30);
+} */
+
+/* p {
+  font-weight: bold;
+  font-size: 1rem;
+} */
+
+footer {
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(233, 233, 45);
+  border-bottom: black;
+  border-style: solid;
+}
+
+footer a {
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: black;
+}
+
+.cc {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: end;
+}
+
+.extra {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: small;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.link {
+  box-sizing: border-box;
+  /* border: solid; */
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: rgb(233, 233, 45);
+}
+
+.primary-link {
+  background-color: rgb(219, 219, 61);
+  border-radius: 0.5rem;
+  color: black;
+  font-family: "Noto Serif", serif;
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+}
